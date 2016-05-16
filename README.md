@@ -12,7 +12,7 @@ So assuming you have an OpenShift cluster that can see this Github repo and also
 
 This should be all you need and you can then navigate to the following URL to access the sample aplication war:
 
-http://<routename>-<namespace>.<OSEAddress>/sample/
+http://routename-namespace.OSEAddress/sample/
 
 Note to see how this works you can look at the Dockerfile in the top level of the repo.
 When OpenShift sees the docker file it uses the Docker strategy for the build.
